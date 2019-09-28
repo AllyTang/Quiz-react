@@ -1,0 +1,40 @@
+{
+  "img": [
+    {
+      "id": 0,
+      "imgUrl": "https://d24s38jd6z1bka.cloudfront.net/upload/images/content/postcard/ideas.png"
+    }
+  ],
+  "data": [
+    {
+      "id": 0,
+      "question": "Which sea creature has three hearts? ",
+      "options": ["Wheal", "Octopus", "Crab", "Starfish"],
+      "answer": "Octopus"
+    },
+    {
+      "id": 1,
+      "question": "Who is the CEO of Guroo Producer? ",
+      "options": ["Josh Humphries", "Daniel Steff", "Adam Steff"],
+      "answer": "Josh Humphries"
+    },
+    {
+      "id": 2,
+      "question": "What is the capital of Australia? ",
+      "options": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+      "answer": "Canberra"
+    },
+    {
+      "id": 3,
+      "question": "Is Ally Chinese? ",
+      "options": ["Yes", "No"],
+      "answer": "Yes"
+    },
+    {
+      "id": 4,
+      "question": "Are Daniel Steff and Adam Steff twins? ",
+      "options": ["Yes", "No"],
+      "answer": "Yes"
+    }
+  ]
+}

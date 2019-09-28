@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Wrapper, Swing } from './style';
+import { Wrapper, Swing } from '../style';
 import axios from 'axios';
 class Introduction extends Component {
   loadQuiz = () => {
@@ -18,7 +18,6 @@ class Introduction extends Component {
     imgLink: null
   };
   render() {
-    console.log(this.state.imgLink);
     return (
       <React.Fragment>
         <Wrapper>

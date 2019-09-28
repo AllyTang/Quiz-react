@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { StyledOption, Wrapper, H1 } from './style';
+import { StyledOption, Wrapper, H1 } from '../style';
 import Conclusion from './Conclusion';
 
 class Quiz extends Component {

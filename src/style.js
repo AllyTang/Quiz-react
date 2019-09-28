@@ -1,19 +1,5 @@
 import styled from 'styled-components';
 
-export const StyledOption = styled.p`
-  position: absolute;
-  left: 200px;
-  width: 60%;
-
-  &.selected {
-    background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
-  }
-  &.options {
-    padding: 8px;
-    cursor: pointer;
-  }
-`;
-
 export const Wrapper = styled.div`
   position: relative;
   margin: 100px auto 0;
@@ -53,11 +39,28 @@ export const Wrapper = styled.div`
 export const H1 = styled.h1`
   margin-top: 20px !important;
   letter-spacing: 2px;
+  color: #283271;
 `;
 
+//Quiz-----------------
+export const StyledOption = styled.p`
+  position: absolute;
+  left: 200px;
+  width: 60%;
+
+  &.selected {
+    background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
+  }
+  &.options {
+    padding: 1rem;
+    cursor: pointer;
+  }
+`;
+
+//Conclusion-------------
 export const Transcript = styled.ul`
-  width: 70%;
-  margin-left: 20%;
+  width: 80%;
+  margin-left: 15%;
   margin-top: 2rem;
   font-size: 20px;
   font-weight: bold;
@@ -66,8 +69,18 @@ export const Transcript = styled.ul`
   li {
     text-align: left;
   }
-  span {
+  .question {
     display: inline-block;
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    text-aligh: left;
+    margin-right: 4rem;
+  }
+  .answer {
+    display: inline-block;
+    width: 20%;
+    text-aligh: left;
     margin-right: 4rem;
   }
   .marker {
@@ -79,7 +92,7 @@ export const TryAgain = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  a{
+  button{
     display: block;
     width: 200px;
     height: 60px;
@@ -99,7 +112,7 @@ export const TryAgain = styled.div`
     position: relative;
     z-index: 2;
   }
-  a:after{
+  button:after{
     position: absolute;
     content: "";
     top: 0;
@@ -110,14 +123,15 @@ export const TryAgain = styled.div`
     transition: all .35s;
   }
   
-  a:hover{
+  button:hover{
     color: #fff;
   }
   
-  a:hover:after{
+  button:hover:after{
     width: 100%;
 `;
 
+//Introduction-------------------
 export const Swing = styled.figure`
   animation: swing ease-in-out 1s infinite alternate;
   transform-origin: center -20px;

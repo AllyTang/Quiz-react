@@ -5,8 +5,8 @@ export const Wrapper = styled.div`
   margin: 100px auto 0;
   width: 1032px;
   height: 560px;
-  background-color: #dcedc8;
-  border: 1rem solid #ffc107;
+  background-color: #b8eaf5;
+  border: 1rem solid #844bb3;
   border-radius: 1.8rem;
   text-align: center;
   .button {
@@ -39,7 +39,7 @@ export const Wrapper = styled.div`
 export const H1 = styled.h1`
   margin-top: 20px !important;
   letter-spacing: 2px;
-  color: #283271;
+  color: #1920f7;
 `;
 
 //Quiz-----------------
